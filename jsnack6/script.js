@@ -1,8 +1,10 @@
-let numeroComputer = Math.floor(Math.random() * 10);
-let numeroUtente = parseInt(prompt("Inserisci un numero intero da 0 a 10"));
+let numeroMax = parseInt(prompt("Inserisci numero massimo consentito"));
 
-if(numeroUtente <= 0 || numeroUtente > 10){
-    console.log("Inserisci un numero tra 0 e 10");
+let numeroComputer = Math.floor(Math.random() * numeroMax);
+let numeroUtente = parseInt(prompt("Inserisci un numero intero"));
+
+if(numeroUtente <= 0 || numeroUtente > numeroMax){
+    console.log("Inserisci un numero consentito");
 } else {
     console.log("numero computer: " + numeroComputer);
     console.log("numero utente: " + numeroUtente);
