@@ -8,4 +8,6 @@ for (let i = 0; i < 6; i++) {
         arrayNumeri.push(numero);
     }
 }
-console.log(arrayNumeri);
+for (let i=0; i < arrayNumeri.length; i++){
+console.log(arrayNumeri[i]);
+}
