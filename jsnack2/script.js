@@ -1,3 +1,4 @@
+//l'utente inserisce due parole in successione, con due prompt. Il software stampa prima la più corta, poi la più lunga.
 let parolaUno = prompt("inserisci la prima parola");
 let parolaDue = prompt("inserisci la seconda parola");
 

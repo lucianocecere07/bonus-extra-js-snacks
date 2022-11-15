@@ -1,3 +1,4 @@
+/*fate generare un numero random da 0 a 10 al computer, e chiedete all'utente di inserire un numero. Se il numero scelto dall'utente è uguale al numero del computer informare l'utente che ha vinto, atrimenti che ha perso*/
 let numeroMax = parseInt(prompt("Inserisci numero massimo consentito"));
 
 let numeroComputer = Math.floor(Math.random() * numeroMax);

@@ -1,3 +1,5 @@
+//In un array sono contenuti i nomi degli invitati alla festa del Grande Gatsby,
+//chiedi all'utente il suo nome e comunicagli se può partecipare o no alla festa
 let arrayNomi = ["jay", "daisy", "myrtle", "jordan", "henry", "nick", "tom", "meyer", "george"];
 
 let nomeInvitatoFesta = false;

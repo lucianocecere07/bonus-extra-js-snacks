@@ -11,14 +11,14 @@ for(i=0; i<10; i++){
 console.log("la somma dei numeri è: " + somma);*/
 
 
-//SOMMA TRAMITE ARRAY
+//Il software deve chiedere per 10 volte all'utente di inserire un numero.
+//Il programma stampa la somma di tutti i numeri inseriti.
 let numero = 0;
 let arrayNumeri =[];
 let somma =0;
 for(i=0; i<10; i++){
     let numero = parseInt(prompt("inserisci un numero intero"));
     console.log(numero);
-    //somma = somma + numero;
     arrayNumeri.push(numero);
 }
 for(i=0; i<arrayNumeri.length; i++){

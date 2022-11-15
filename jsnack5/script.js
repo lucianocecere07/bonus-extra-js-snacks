@@ -1,3 +1,4 @@
+/*creo un array vuoto. chiedi per 6 volte un numero all'utente. Se dispari inseriscilo nell'array e stampa alla fine l'array*/ 
 let arrayNumeri = [];
 
 
