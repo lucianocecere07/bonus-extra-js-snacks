@@ -16,12 +16,12 @@ console.log("la somma dei numeri è: " + somma);*/
 let numero = 0;
 let arrayNumeri =[];
 let somma =0;
-for(i=0; i<10; i++){
+for(let i=0; i<10; i++){
     let numero = parseInt(prompt("inserisci un numero intero"));
     console.log(numero);
     arrayNumeri.push(numero);
 }
-for(i=0; i<arrayNumeri.length; i++){
+for(let i=0; i<arrayNumeri.length; i++){
     somma = somma + arrayNumeri[i];
 }
 console.log("la somma dei numeri è: " + somma);
